@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42A4D5C256971E100481571 /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D5A256971E100481571 /* engine.cpp */; };
+		B42A4D6625697A2200481571 /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D6425697A2200481571 /* bullet.cpp */; };
+		B42A4D6B25697D3F00481571 /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D6925697D3F00481571 /* enemy.cpp */; };
+		B42A4D7025697FF000481571 /* hud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D6E25697FF000481571 /* hud.cpp */; };
+		B42A4D74256987C300481571 /* draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D73256987C300481571 /* draw.cpp */; };
+		B42A4D772569887400481571 /* input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D762569887400481571 /* input.cpp */; };
+		B42A4D7A25698A4400481571 /* update.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D7925698A4400481571 /* update.cpp */; };
+		B444E30A2569987000FAAAB7 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E2FD2569987000FAAAB7 /* sfml-audio.framework */; };
+		B444E30B2569987000FAAAB7 /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E2FE2569987000FAAAB7 /* ogg.framework */; };
+		B444E30C2569987000FAAAB7 /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E2FF2569987000FAAAB7 /* freetype.framework */; };
+		B444E30D2569987000FAAAB7 /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3002569987000FAAAB7 /* vorbis.framework */; };
+		B444E30E2569987000FAAAB7 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3012569987000FAAAB7 /* sfml-network.framework */; };
+		B444E30F2569987000FAAAB7 /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3022569987000FAAAB7 /* vorbisenc.framework */; };
+		B444E3102569987000FAAAB7 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3032569987000FAAAB7 /* sfml-system.framework */; };
+		B444E3112569987000FAAAB7 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3042569987000FAAAB7 /* SFML.framework */; };
+		B444E3122569987000FAAAB7 /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3052569987000FAAAB7 /* vorbisfile.framework */; };
+		B444E3132569987000FAAAB7 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3062569987000FAAAB7 /* OpenAL.framework */; };
+		B444E3142569987000FAAAB7 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3072569987000FAAAB7 /* sfml-graphics.framework */; };
+		B444E3152569987000FAAAB7 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3082569987000FAAAB7 /* sfml-window.framework */; };
+		B444E3162569987000FAAAB7 /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B444E3092569987000FAAAB7 /* FLAC.framework */; };
 		B47C7B43256967C6006B232D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B47C7B42256967C6006B232D /* main.cpp */; };
+		B48AB8F22569A3300086F955 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B42A4D5F256974AA00481571 /* player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B47C7B3D256967C6006B232D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -23,6 +44,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B42A4D5A256971E100481571 /* engine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = engine.cpp; sourceTree = "<group>"; };
+		B42A4D5B256971E100481571 /* engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		B42A4D5F256974AA00481571 /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		B42A4D60256974AA00481571 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		B42A4D6425697A2200481571 /* bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bullet.cpp; sourceTree = "<group>"; };
+		B42A4D6525697A2200481571 /* bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bullet.h; sourceTree = "<group>"; };
+		B42A4D6925697D3F00481571 /* enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cpp; sourceTree = "<group>"; };
+		B42A4D6A25697D3F00481571 /* enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enemy.h; sourceTree = "<group>"; };
+		B42A4D6E25697FF000481571 /* hud.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hud.cpp; sourceTree = "<group>"; };
+		B42A4D6F25697FF000481571 /* hud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hud.h; sourceTree = "<group>"; };
+		B42A4D73256987C300481571 /* draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = draw.cpp; sourceTree = "<group>"; };
+		B42A4D762569887400481571 /* input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input.cpp; sourceTree = "<group>"; };
+		B42A4D7925698A4400481571 /* update.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = update.cpp; sourceTree = "<group>"; };
+		B444E2FD2569987000FAAAB7 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		B444E2FE2569987000FAAAB7 /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ogg.framework; path = ../../../../../Library/Frameworks/ogg.framework; sourceTree = "<group>"; };
+		B444E2FF2569987000FAAAB7 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = freetype.framework; path = ../../../../../Library/Frameworks/freetype.framework; sourceTree = "<group>"; };
+		B444E3002569987000FAAAB7 /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbis.framework; path = ../../../../../Library/Frameworks/vorbis.framework; sourceTree = "<group>"; };
+		B444E3012569987000FAAAB7 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		B444E3022569987000FAAAB7 /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisenc.framework; path = ../../../../../Library/Frameworks/vorbisenc.framework; sourceTree = "<group>"; };
+		B444E3032569987000FAAAB7 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		B444E3042569987000FAAAB7 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		B444E3052569987000FAAAB7 /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisfile.framework; path = ../../../../../Library/Frameworks/vorbisfile.framework; sourceTree = "<group>"; };
+		B444E3062569987000FAAAB7 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = ../../../../../Library/Frameworks/OpenAL.framework; sourceTree = "<group>"; };
+		B444E3072569987000FAAAB7 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		B444E3082569987000FAAAB7 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		B444E3092569987000FAAAB7 /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAC.framework; path = ../../../../../Library/Frameworks/FLAC.framework; sourceTree = "<group>"; };
+		B444E3172569997800FAAAB7 /* game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = game.entitlements; sourceTree = "<group>"; };
 		B47C7B3F256967C6006B232D /* game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = game; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47C7B42256967C6006B232D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,17 +80,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B444E30A2569987000FAAAB7 /* sfml-audio.framework in Frameworks */,
+				B444E30B2569987000FAAAB7 /* ogg.framework in Frameworks */,
+				B444E30C2569987000FAAAB7 /* freetype.framework in Frameworks */,
+				B444E30D2569987000FAAAB7 /* vorbis.framework in Frameworks */,
+				B444E30E2569987000FAAAB7 /* sfml-network.framework in Frameworks */,
+				B444E30F2569987000FAAAB7 /* vorbisenc.framework in Frameworks */,
+				B444E3102569987000FAAAB7 /* sfml-system.framework in Frameworks */,
+				B444E3112569987000FAAAB7 /* SFML.framework in Frameworks */,
+				B444E3122569987000FAAAB7 /* vorbisfile.framework in Frameworks */,
+				B444E3132569987000FAAAB7 /* OpenAL.framework in Frameworks */,
+				B444E3142569987000FAAAB7 /* sfml-graphics.framework in Frameworks */,
+				B444E3152569987000FAAAB7 /* sfml-window.framework in Frameworks */,
+				B444E3162569987000FAAAB7 /* FLAC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B42A4D382569706400481571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B444E3092569987000FAAAB7 /* FLAC.framework */,
+				B444E2FF2569987000FAAAB7 /* freetype.framework */,
+				B444E2FE2569987000FAAAB7 /* ogg.framework */,
+				B444E3062569987000FAAAB7 /* OpenAL.framework */,
+				B444E2FD2569987000FAAAB7 /* sfml-audio.framework */,
+				B444E3072569987000FAAAB7 /* sfml-graphics.framework */,
+				B444E3012569987000FAAAB7 /* sfml-network.framework */,
+				B444E3032569987000FAAAB7 /* sfml-system.framework */,
+				B444E3082569987000FAAAB7 /* sfml-window.framework */,
+				B444E3042569987000FAAAB7 /* SFML.framework */,
+				B444E3002569987000FAAAB7 /* vorbis.framework */,
+				B444E3022569987000FAAAB7 /* vorbisenc.framework */,
+				B444E3052569987000FAAAB7 /* vorbisfile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B47C7B36256967C6006B232D = {
 			isa = PBXGroup;
 			children = (
 				B47C7B41256967C6006B232D /* game */,
 				B47C7B40256967C6006B232D /* Products */,
+				B42A4D382569706400481571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +139,21 @@
 		B47C7B41256967C6006B232D /* game */ = {
 			isa = PBXGroup;
 			children = (
+				B444E3172569997800FAAAB7 /* game.entitlements */,
 				B47C7B42256967C6006B232D /* main.cpp */,
+				B42A4D5A256971E100481571 /* engine.cpp */,
+				B42A4D5B256971E100481571 /* engine.h */,
+				B42A4D5F256974AA00481571 /* player.cpp */,
+				B42A4D60256974AA00481571 /* player.h */,
+				B42A4D6425697A2200481571 /* bullet.cpp */,
+				B42A4D6525697A2200481571 /* bullet.h */,
+				B42A4D6925697D3F00481571 /* enemy.cpp */,
+				B42A4D6A25697D3F00481571 /* enemy.h */,
+				B42A4D6E25697FF000481571 /* hud.cpp */,
+				B42A4D6F25697FF000481571 /* hud.h */,
+				B42A4D73256987C300481571 /* draw.cpp */,
+				B42A4D762569887400481571 /* input.cpp */,
+				B42A4D7925698A4400481571 /* update.cpp */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -118,7 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42A4D6B25697D3F00481571 /* enemy.cpp in Sources */,
 				B47C7B43256967C6006B232D /* main.cpp in Sources */,
+				B48AB8F22569A3300086F955 /* player.cpp in Sources */,
+				B42A4D772569887400481571 /* input.cpp in Sources */,
+				B42A4D5C256971E100481571 /* engine.cpp in Sources */,
+				B42A4D7025697FF000481571 /* hud.cpp in Sources */,
+				B42A4D6625697A2200481571 /* bullet.cpp in Sources */,
+				B42A4D7A25698A4400481571 /* update.cpp in Sources */,
+				B42A4D74256987C300481571 /* draw.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +343,18 @@
 		B47C7B47256967C6006B232D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = game/game.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Q95MJ7CSG;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/usr/local/lib,
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,9 +362,18 @@
 		B47C7B48256967C6006B232D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = game/game.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Q95MJ7CSG;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/usr/local/lib,
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

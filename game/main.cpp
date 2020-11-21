@@ -5,10 +5,11 @@
 //  Created by Nick Martin on 11/21/20.
 //
 
-#include <iostream>
+#include <SFML/Graphics.hpp>
+#include "engine.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    Engine engine;
+    engine.start();
     return 0;
 }
